@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Post</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Create Post</h1>
+
+  <form action="/posts" method="POST">
+
+    <input
+      type="text"
+      name="title"
+      placeholder="Post Title"
+      required
+    >
+
+    <textarea
+      name="content"
+      placeholder="Write your content..."
+      required
+    ></textarea>
+
+    <button type="submit" class="btn">
+      Publish
+    </button>
+  </form>
+
+  <a href="/">Back Home</a>
+</div>
+
+</body>
+</html>
